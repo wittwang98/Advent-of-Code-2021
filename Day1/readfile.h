@@ -4,6 +4,6 @@
 #include <vector>
 #include <fstream>
 
-std::vector<int> readfile(std::string fileName);
+std::vector<int> readfile(std::string const& fileName);
 
 #endif
